@@ -1,3 +1,6 @@
 selenium
 requests
 pytest
+pytest-rerunfailures
+pytest-xdist
+allure-pytest

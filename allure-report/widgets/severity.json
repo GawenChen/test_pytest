@@ -1,0 +1,21 @@
+[ {
+  "uid" : "d966750e1c6a55b0",
+  "name" : "test_enter_pro",
+  "time" : {
+    "start" : 1633686530652,
+    "stop" : 1633686530652,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b79bb9b548fd684",
+  "name" : "test_edclogin",
+  "time" : {
+    "start" : 1633686530650,
+    "stop" : 1633686530650,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

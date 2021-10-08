@@ -1,0 +1,48 @@
+{
+  "uid" : "58a19cd05b1c4a07",
+  "name" : "test_edclogin",
+  "fullName" : "test_login#test_edclogin",
+  "historyId" : "d5290695a18aee0d3d9577e6a9c12187",
+  "time" : {
+    "start" : 1633685355078,
+    "stop" : 1633685355079,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "ChenGen"
+  }, {
+    "name" : "thread",
+    "value" : "16608-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "58a19cd05b1c4a07.json",
+  "parameterValues" : [ ]
+}

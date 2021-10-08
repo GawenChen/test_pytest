@@ -1,0 +1,48 @@
+{
+  "uid" : "a9ad082d929c4175",
+  "name" : "test_enter_pro",
+  "fullName" : "test_login#test_enter_pro",
+  "historyId" : "024ad0b2af46e07af969daf55495c3c5",
+  "time" : {
+    "start" : 1633685537810,
+    "stop" : 1633685537810,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "host",
+    "value" : "ChenGen"
+  }, {
+    "name" : "thread",
+    "value" : "16796-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a9ad082d929c4175.json",
+  "parameterValues" : [ ]
+}
