@@ -5,7 +5,7 @@
     "name" : "test_login",
     "children" : [ {
       "name" : "test_edclogin",
-      "uid" : "2b79bb9b548fd684",
+      "uid" : "d8871ab67906e7a8",
       "parentUid" : "03f1661ca992eb99488d3d9f2a012d80",
       "status" : "passed",
       "time" : {
@@ -18,7 +18,7 @@
       "parameters" : [ ]
     }, {
       "name" : "test_enter_pro",
-      "uid" : "d966750e1c6a55b0",
+      "uid" : "d7a54a4d49f2d0f0",
       "parentUid" : "03f1661ca992eb99488d3d9f2a012d80",
       "status" : "passed",
       "time" : {
@@ -29,7 +29,67 @@
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
+    }, {
+      "name" : "test_login",
+      "uid" : "48e9efcbbd49dd90",
+      "parentUid" : "03f1661ca992eb99488d3d9f2a012d80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633771549007,
+        "stop" : 1633771550445,
+        "duration" : 1438
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
     } ],
     "uid" : "03f1661ca992eb99488d3d9f2a012d80"
+  }, {
+    "name" : "Web.example3",
+    "children" : [ {
+      "name" : "test_sum[1-2-3]",
+      "uid" : "fa1956b8d57b346f",
+      "parentUid" : "516ddefc95cddf5f58cf7108d376a803",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633766723682,
+        "stop" : 1633766723682,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "2", "3" ]
+    }, {
+      "name" : "test_sum[2-3-5]",
+      "uid" : "8dced6a6b531c072",
+      "parentUid" : "516ddefc95cddf5f58cf7108d376a803",
+      "status" : "passed",
+      "time" : {
+        "start" : 1633766723686,
+        "stop" : 1633766723686,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "3", "5" ]
+    } ],
+    "uid" : "Web.example3"
+  }, {
+    "name" : "ddt.test_login",
+    "children" : [ {
+      "name" : "test_login[listcases0]",
+      "uid" : "80d8360157971f0",
+      "parentUid" : "09d3c52de90eeb2c1492b18ba2e139eb",
+      "status" : "broken",
+      "time" : {
+        "start" : 1633775122937,
+        "stop" : 1633775123388,
+        "duration" : 451
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'title': '登录成功', 'cases': [{'name': '打开登录页', 'method': 'geturl', 'url': 'https://demodata.liangyihui.net/newlogin.html'}, {'name': '输入账号'}]}" ]
+    } ],
+    "uid" : "ddt.test_login"
   } ]
 }

@@ -1,0 +1,11 @@
+loginPage :
+  -
+    title : 登录成功
+    cases :
+      - name : 打开登录页
+        method : geturl
+        url : https://demodata.liangyihui.net/newlogin.html
+
+      - name : 输入账号
+        method : input
+        value : 18616269204

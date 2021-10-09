@@ -7,10 +7,11 @@
 @QQ : 810400085
 """
 import os
-
 import pytest
+from ddt.datas import datas
 
 # pytest.main(['-s','EDC_Suites/test_login.py','--alluredir','./temp'])
 # os.system('allure generate ./temp -o./allure-report --clean')
 
-pytest.main(['-s','Web/example3.py'])
+pytest.main(['-s', 'ddt/test_login.py', '--alluredir', './temp'])
+os.system('allure generate ./temp -o ./allure-report --clean')
